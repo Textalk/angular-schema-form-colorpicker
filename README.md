@@ -8,7 +8,7 @@ Spectrum support a wide variety of formats, such as hex, rgb(a), hsv(a), names a
 Installation
 ------------
 The date picker is an add-on to the Bootstrap decorator. To use it, just include
-`dist/bootstrap-datepicker.min.js` *after* `dist/bootstrap-decorator.min.js`.
+`dist/bootstrap-colorpicker.min.js` *after* `dist/bootstrap-decorator.min.js`.
 
 You'll need to load a few additional files to use colorpicker:
 
@@ -27,7 +27,7 @@ $ bower install angular-schema-form-colorpicker
 
 Usage
 -----
-The datepicker add-on adds a new form type, `datepicker`, and a new default
+The colorpicker add-on adds a new form type, `colorpicker`, and a new default
 mapping.
 
 |  Form Type     |   Becomes    |
