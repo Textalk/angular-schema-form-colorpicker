@@ -44,7 +44,7 @@ Example
 <script type="text/javascript" src="/bower_components/spectrum/spectrum.js"></script>
 <script type="text/javascript" src="/bower_components/spectrum/i18n/jquery.spectrum-sv.js"></script>
 <script type="text/javascript" src="/bower_components/angular-spectrum-colorpicker/dist/angular-spectrum-colorpicker.min.js"></script>
-<script type="text/javascript" src="/bower_components/angular-schema-form-colorpicker/angular-schema-form-colorpicker.min.js"></script>
+<script type="text/javascript" src="/bower_components/angular-schema-form-colorpicker/bootstrap-colorpicker.min.js"></script>
 
 <link rel="stylesheet" href="/bower_components/spectrum/spectrum.css">
 ```
