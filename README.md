@@ -10,20 +10,46 @@ Installation
 The date picker is an add-on to the Bootstrap decorator. To use it, just include
 `dist/bootstrap-colorpicker.min.js` *after* `dist/bootstrap-decorator.min.js`.
 
-You'll need to load a few additional files to use colorpicker:
-
-1. jQuery (Spectrum depends on it)
-2. The Spectrum source files The Spectrum source files (see the
-   [GitHub page](https://github.com/amsul/pickadate.js) for documentation)
-3. The Spectrum-angular source files (see the
-   [GitHub page](https://github.com/Jimdo/angular-spectrum-colorpicker) for documentation)
-3. The spectrum CSS
-4. Translation files for whatever language you want to use
-
 Easiest way is to install is with bower, this will also include dependencies:
 ```bash
 $ bower install angular-schema-form-colorpicker
 ```
+
+You'll need to load a few additional files to use colorpicker:
+
+*Before loading angular schema form*
+
+1. jQuery
+2. Angular
+
+*After loading angular schema form*
+
+1. The Spectrum source files (see the
+   [GitHub page](https://github.com/amsul/pickadate.js) for documentation)
+2. The Spectrum-angular source files (see the
+   [GitHub page](https://github.com/Jimdo/angular-spectrum-colorpicker) for documentation)
+3. The Angular Schema Form Colorpicker files (this project)
+3. The spectrum CSS
+4. Translation files for whatever language you want to use
+
+Example
+
+```HTML
+<script type="text/javascript" src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="/bower_components/angular/angular.min.js"></script>
+<script type="text/javascript" src="/bower_components/angular-sanitize/angular-sanitize.min.js"></script>
+<script type="text/javascript" src="/bower_components/angular-schema-form/schema-form.min.js"></script>
+<script type="text/javascript" src="/bower_components/angular-schema-form/bootstrap-decorator.min.js"></script>
+
+<script type="text/javascript" src="/bower_components/spectrum/spectrum.js"></script>
+<script type="text/javascript" src="/bower_components/spectrum/i18n/jquery.spectrum-sv.js"></script>
+<script type="text/javascript" src="/bower_components/angular-spectrum-colorpicker/dist/angular-spectrum-colorpicker.min.js"></script>
+<script type="text/javascript" src="/bower_components/angular-schema-form-colorpicker/angular-schema-form-colorpicker.min.js"></script>
+
+<link rel="stylesheet" href="/bower_components/spectrum/spectrum.css">
+```
+
+
 
 Usage
 -----
