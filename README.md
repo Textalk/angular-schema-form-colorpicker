@@ -94,7 +94,6 @@ Here's an example:
   colorFormat: 'hsv',
   spectrumOptions: {
     preferredFormat: 'hex3',
-    flat: true,
     showAlpha: false,
     palette: [['black', 'white'], ['red', 'green']]
   }
